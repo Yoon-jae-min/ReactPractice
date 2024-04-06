@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        let name = '구름'
+        let imgUrl = 'http://placedog.net/400/200'
+
+        let component = <div>
+                <h1>{name}님 안녕하세요!</h1>
+                <img src={imgUrl}/>
+            </div>
+
+        let container = document.getElementById('root')
+
+        ReactDOM.render(component, container);
+
+    </script>
+</body>
+</html>

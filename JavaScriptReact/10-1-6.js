@@ -1,0 +1,27 @@
+class App extends React.Component{
+    constructor(props){
+        super(props)
+        this.state = {
+            count: 0
+        }
+
+        this.countUp = this.countUp.bind(this)
+    }
+
+    render(){
+        return <div>
+            <h1>클릭한 횟수: {this.state.count}</h1>
+            <button onClick={this.countUp}>클릭</button>
+        </div>
+    }
+
+    countUp(event){
+        this.setState({
+            count: this.state.count + 1
+        })
+    }
+}
+
+
+let root = document.getElementById('root');
+ReactDOM.render(<App />, root);
