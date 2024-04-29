@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Function</h1>
+    <p>일반함수</p>
+    <p id="demo"></p>
+
+    <script>
+        hello = val => "Hello " + val;
+
+        const demo = document.querySelector("#demo");
+        demo.innerHTML = hello("World!");
+    </script>
+</body>
+</html>

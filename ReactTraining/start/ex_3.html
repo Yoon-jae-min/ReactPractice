@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Arrow Function - Parameters(매개변수) </h2>
+    <p id="demo"></p>
+    <p id="demo3"></p>
+
+    <script>
+        let hello;
+        hello = (val) => "Hello " + val;
+        document.getElementById('demo').innerHTML = hello("Universe!");
+
+        let hello3;
+        hello3 = val => "Hello " + val;
+        document.getElementById('demo3').innerHTML = hello3("earth!");
+    </script>
+</body>
+</html>
