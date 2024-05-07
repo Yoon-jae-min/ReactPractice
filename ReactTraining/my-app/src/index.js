@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './App.css';
 import reportWebVitals from './reportWebVitals';
 import Hello from './ch03/Hello';
 import Library from './ch03/Library';
@@ -26,9 +27,15 @@ import RequestForm from './ch11/RequestForm';
 import FruitSelect from './ch11/FruitSelect';
 import Reservation from './ch11/Reservation';
 import SignUp from './ch11/SignUp';
+import Calculator from './ch12/Calculator';
+import WelcomeDialog from './ch13/WelcomeDialog';
+import ProfileCard from './ch13/ProfileCard';
+import DarkOrLight from './ch14/DarkOrLight';
+import MainPage2 from './ch15/MainPage';
+import Blocks from './ch15/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<SignUp/>)
+root.render(<Blocks/>)
 
 
 reportWebVitals();

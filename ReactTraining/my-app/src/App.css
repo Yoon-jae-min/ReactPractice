@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* 기본 FancyBorder 스타일 */
+.FancyBorder {
+  padding: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+}
+/* 색상별 테두리 스타일 */
+.FancyBorder-blue {  border-color: blue; }
+.FancyBorder-red {  border-color: red; }
+.FancyBorder-green {  border-color: green; }
+.FancyBorder-yellow {  border-color: yellow; }
+/* WelcomeDialog 내부 요소 스타일링 */
+.Dialog-title {
+  font-size: 24px; 
+  color: #333333;
+  margin-bottom: 10px;
+}
+.Dialog-message {
+  font-size: 16px;
+  color: #666666;
+}
